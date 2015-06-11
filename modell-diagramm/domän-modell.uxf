@@ -4,7 +4,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>870</x>
+      <x>610</x>
       <y>380</y>
       <w>330</w>
       <h>230</h>
@@ -23,7 +23,7 @@ typ:kontotyp
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>270</x>
+      <x>10</x>
       <y>380</y>
       <w>300</w>
       <h>220</h>
@@ -41,14 +41,14 @@ Hausnummer:intiger
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>560</x>
+      <x>300</x>
       <y>440</y>
       <w>330</w>
       <h>50</h>
     </coordinates>
     <panel_attributes>lt=-
 r2=besitzer
-m1=1
+m1=1..*
 m2=1
 hat ein &gt;</panel_attributes>
     <additional_attributes>310.0;20.0;10.0;20.0</additional_attributes>
@@ -56,7 +56,7 @@ hat ein &gt;</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>260</x>
+      <x>0</x>
       <y>130</y>
       <w>210</w>
       <h>120</h>
