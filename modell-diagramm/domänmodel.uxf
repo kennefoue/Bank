@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="13.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>870</x>
+      <y>380</y>
+      <w>330</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>Konto
+--
+social sicherheitsnummer:string
+pin:integer
+kontostand:float
+typ:kontotyp
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>270</x>
+      <y>380</y>
+      <w>300</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>Person
+--
+Name:String
+vorname:String
+stadt:String
+land:String
+Hausnummer:intiger
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>560</x>
+      <y>440</y>
+      <w>330</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-
+r2=besitzer
+m1=1
+m2=1
+hat ein &gt;</panel_attributes>
+    <additional_attributes>310.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>260</x>
+      <y>130</y>
+      <w>210</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enumeration&gt;&gt;
+Kontotyp
+--
+sparrkonto
+girokonto
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
