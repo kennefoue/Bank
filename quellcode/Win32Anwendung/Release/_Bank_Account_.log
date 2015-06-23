@@ -1,0 +1,34 @@
+﻿Der Buildvorgang wurde am 23-Jun-15 1:32:01 PM gestartet.
+     1>Projekt "C:\Users\Avilain\GitHub\Bank\quellcode\Win32Anwendung\_Bank_Account_.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0710 /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Account.cpp checkingAccount.cpp doMain.cpp findRecord.cpp main.cpp mainMenu.cpp miscFunctions.cpp quit.cpp savingAccount.cpp stdafx.cpp verifyDuplicateEntries.cpp
+         Account.cpp
+         checkingAccount.cpp
+         doMain.cpp
+         findRecord.cpp
+         main.cpp
+         mainMenu.cpp
+         miscFunctions.cpp
+         quit.cpp
+         savingAccount.cpp
+         stdafx.cpp
+         verifyDuplicateEntries.cpp
+         Code wird generiert...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release\_Bank_Account_.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Release\_Bank_Account_.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\_Bank_Account_.lib" /MACHINE:X86 /SAFESEH Release\Account.obj
+         Release\checkingAccount.obj
+         Release\doMain.obj
+         Release\findRecord.obj
+         Release\main.obj
+         Release\mainMenu.obj
+         Release\miscFunctions.obj
+         Release\quit.obj
+         Release\savingAccount.obj
+         Release\stdafx.obj
+         Release\verifyDuplicateEntries.obj
+         _Bank_Account_.vcxproj -> C:\Users\Avilain\GitHub\Bank\quellcode\Win32Anwendung\Release\_Bank_Account_.exe
+     1>Die Erstellung des Projekts "C:\Users\Avilain\GitHub\Bank\quellcode\Win32Anwendung\_Bank_Account_.vcxproj" ist abgeschlossen, Build Ziel(e).
+
+Build erfolgreich.
+
+Verstrichene Zeit 00:00:10.33
